@@ -7,19 +7,23 @@ const homeTab = () => {
   const homeBtn = document.createElement('button');
   homeBtn.textContent = 'Home';
   homeBtn.id = 'homeBtn';
+  homeBtn.className = 'tab-link';
   navbar.appendChild(homeBtn);
 
   const menuBtn = document.createElement('button');
   menuBtn.id = 'menuBtn';
+  menuBtn.className = 'tab-link';
   menuBtn.textContent = 'Menu';
   navbar.appendChild(menuBtn);
 
   const contactBtn = document.createElement('button');
   contactBtn.id = 'contactBtn';
+  contactBtn.className = 'tab-link';
   contactBtn.textContent = 'Contact';
   navbar.appendChild(contactBtn);
 
   const main = document.createElement('div');
+  main.id = "main";
   content.appendChild(main);
 
   const title = document.createElement('h1');
