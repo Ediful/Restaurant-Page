@@ -19,6 +19,7 @@ const contactTab = () => {
   const contactBtn = document.createElement('button');
   contactBtn.id = 'contactBtn';
   contactBtn.className = 'tab-link';
+  contactBtn.className = 'tab-active';
   contactBtn.textContent = 'Contact';
   navbar.appendChild(contactBtn);
 

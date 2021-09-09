@@ -8,6 +8,7 @@ const homeTab = () => {
   homeBtn.textContent = 'Home';
   homeBtn.id = 'homeBtn';
   homeBtn.className = 'tab-link';
+  homeBtn.className = 'tab-active';
   navbar.appendChild(homeBtn);
 
   const menuBtn = document.createElement('button');
@@ -27,8 +28,13 @@ const homeTab = () => {
   content.appendChild(main);
 
   const title = document.createElement('h1');
-  title.textContent = "Restaurant";
+  title.textContent = "Eddie's Icecream Shop";
   main.appendChild(title);
+
+  const logo = document.createElement("IMG");
+  logo.src = "../images/ice-cream-selection.jpg";
+  logo.alt = "Ice Cream Shop Logo";
+  main.appendChild(logo);
 
   const description = document.createElement('p');
   description.textContent = "Mmmh, this restaurant is delicious!";
