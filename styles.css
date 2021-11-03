@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: #ffe5d4;
   height: 100vh;
   font-size: 18px;
@@ -27,7 +27,7 @@ nav {
   padding: 6px;
   font-size: 24px;
   color: #504136;
-  background-color: #7D80DA;
+  background-color: #7d80da;
 }
 
 .tab-link:hover {
@@ -45,8 +45,14 @@ nav {
 
 #main {
   margin: 20px 150px;
+  text-align: center;
 }
 
 h1 {
   text-align: center;
+}
+
+img {
+  height: 300px;
+  width: auto;
 }
